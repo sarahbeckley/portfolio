@@ -1,0 +1,267 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* p {
+  color: #000;
+}
+
+* body {
+  background: #00008b;
+  width: 100%;
+  height: 100vh;
+}
+
+* body #flex-vid-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+* body #flex-vid-skills .video {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  outline: none;
+}
+
+* body #flex-vid-skills .video h1 {
+  color: #fff;
+}
+
+* body #flex-vid-skills .video .collection-item {
+  color: #fff;
+  margin: 0.5rem;
+}
+
+* body #skills {
+  border-radius: 10px;
+  margin-right: 5rem;
+  width: 50vw;
+  height: auto;
+  padding: 1rem;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* body #skills h2 {
+  color: #fff;
+}
+
+* body #skills .skills {
+  text-align: start;
+}
+
+* body #skills .skills p {
+  margin-left: 50px;
+  color: #fff;
+}
+
+* body #skills .skills .skill {
+  margin: auto;
+  width: 90%;
+  height: 15px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+* body #skills .skills .top {
+  margin-bottom: 2rem;
+  background: #333;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+* body #skills .skills .bottom {
+  background: #333;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+* body #skills .skills .html-skill {
+  background: #8b0000;
+  width: 85%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+* body #skills .skills .css-skill {
+  background: #8b0000;
+  width: 75%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+* body #skills .skills .sass-skill {
+  background: #8b0000;
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+* body #skills .skills .javaScript-skill {
+  background: #8b0000;
+  width: 55%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+* body .main-portfolio {
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-top: 5vh;
+  background: #008b8b;
+  width: 75vw;
+  height: auto;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+* body .main-portfolio .main {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+* body .main-portfolio .main .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .main-portfolio .main .flex .img-flex {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+* body .main-portfolio .main .flex .img-flex img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+* body .main-portfolio .main .flex .img-flex h3 {
+  font-size: 20px;
+}
+
+* body .main-portfolio .main .flex .img-flex p {
+  font-size: 18px;
+}
+
+* body .main-portfolio .main .flex .project-flex {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 1rem;
+      grid-template-areas: "one one two two" "three three four four";
+  grid-gap: 0.75rem;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid img {
+  height: 150px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: one;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-1 img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-1 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: two;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-2 img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-2 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-3 {
+  margin-top: 1rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: three;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-3 img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-3 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-4 {
+  margin-top: 1rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: four;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-4 img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid .project-4 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid a .code {
+  border: none;
+  outline: none;
+  background: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+* body .main-portfolio .main .flex .project-flex .project-grid a .code:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #8b0000;
+}
+/*# sourceMappingURL=style.css.map */

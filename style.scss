@@ -1,0 +1,202 @@
+$main-color: #00008b;
+$secondary-color: #008b8b;
+$dark-color: #333;
+$light-color: #fff;
+$third-color: #8b0000;
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+  p {
+    color: #000;
+  }
+  body {
+    background: $main-color;
+    width: 100%;
+    height: 100vh;
+
+    #flex-vid-skills {
+      display: flex;
+      text-align: center;
+      .video {
+        flex: 1;
+        outline: none;
+        h1 {
+          color: $light-color;
+        }
+        .collection-item {
+          color: $light-color;
+          margin: 0.5rem;
+        }
+      }
+    }
+
+    #skills {
+      border-radius: 10px;
+      margin-right: 5rem;
+      width: 50vw;
+      height: auto;
+      padding: 1rem;
+      text-align: center;
+      flex: 1;
+      h2 {
+        color: $light-color;
+      }
+      .skills {
+        text-align: start;
+        p {
+          margin-left: 50px;
+          color: $light-color;
+        }
+        .skill {
+          margin: auto;
+          width: 90%;
+          height: 15px;
+          background: #fff;
+          border-radius: 10px;
+        }
+        .top {
+          margin-bottom: 2rem;
+          background: $dark-color;
+          padding: 1rem;
+          border-radius: 5px;
+        }
+        .bottom {
+          background: $dark-color;
+          padding: 1rem;
+          border-radius: 5px;
+        }
+        .html-skill {
+          background: $third-color;
+          width: 85%;
+          height: 100%;
+          border-radius: 5px;
+        }
+        .css-skill {
+          background: $third-color;
+          width: 75%;
+          height: 100%;
+          border-radius: 5px;
+        }
+        .sass-skill {
+          background: $third-color;
+          width: 90%;
+          height: 100%;
+          border-radius: 5px;
+        }
+        .javaScript-skill {
+          background: $third-color;
+          width: 55%;
+          height: 100%;
+          border-radius: 5px;
+        }
+      }
+    }
+    .main-portfolio {
+      margin: auto;
+      margin-bottom: 3rem;
+      margin-top: 5vh;
+      background: $secondary-color;
+      width: 75vw;
+      height: auto;
+      border-radius: 10px;
+      padding: 1.5rem;
+      .main {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+
+        .flex {
+          display: flex;
+          .img-flex {
+            flex: 1;
+            img {
+              height: 150px;
+              width: 150px;
+              border-radius: 50%;
+            }
+            h3 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 18px;
+            }
+          }
+          .project-flex {
+            flex: 2;
+
+            .project-grid {
+              display: grid;
+              margin-top: 1rem;
+              grid-template-areas:
+                "one one two two"
+                "three three four four";
+              grid-gap: 0.75rem;
+              img {
+                height: 150px;
+                width: 220px;
+                border-radius: 5px;
+              }
+
+              .project-1 {
+                grid-area: one;
+                img {
+                  transition: all 0.3s ease-in-out;
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+              }
+              .project-2 {
+                grid-area: two;
+                img {
+                  transition: all 0.3s ease-in-out;
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+              }
+              .project-3 {
+                margin-top: 1rem;
+                grid-area: three;
+                img {
+                  transition: all 0.3s ease-in-out;
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+              }
+              .project-4 {
+                margin-top: 1rem;
+                grid-area: four;
+                img {
+                  transition: all 0.3s ease-in-out;
+
+                  &:hover {
+                    transform: scale(1.1);
+                  }
+                }
+              }
+              a .code {
+                border: none;
+                outline: none;
+                background: $dark-color;
+                color: $light-color;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+
+                &:hover {
+                  transform: scale(1.1);
+                  background: $third-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -22,10 +22,14 @@ $third-color: #8b0000;
       .video {
         flex: 1;
         outline: none;
+        video {
+          height: 350px;
+          width: 350px;
+        }
         h1 {
           color: $light-color;
         }
-        .collection-item {
+        p {
           color: $light-color;
           margin: 0.5rem;
         }
@@ -197,6 +201,47 @@ $third-color: #8b0000;
           }
         }
       }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-portfolio {
+    .main {
+      .flex {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #flex-vid-skills {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  #skills {
+    .skills {
+      width: 100vw;
+    }
+  }
+  .main-portfolio {
+    .main {
+      .flex {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .project-grid {
+    margin-left: 1.5rem;
+    .project-2 {
+      display: none;
+    }
+
+    .project-4 {
+      display: none;
     }
   }
 }
